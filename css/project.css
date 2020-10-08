@@ -1,0 +1,118 @@
+.jumbotron {
+    color: #2c3e50;
+    background: #ecf0f1;
+    opacity: 0.8;
+}
+
+.container .jumbotron {
+    border-radius: 80px;
+}
+
+.image {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image1 {
+    background-image: url(https://images.unsplash.com/photo-1519304520401-239e2a56a1aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80);
+}
+
+.image2 {
+    background-image: url(https://images.pexels.com/photos/346895/pexels-photo-346895.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+}
+
+.image3 {
+    background-image: url(https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+}
+
+.image4 {
+    background-image: url(https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+}
+
+.image5 {
+    background-image: url(https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=353&q=80);
+}
+
+
+.img-thumbnail {
+    margin-bottom: 10px;
+}
+
+.pro-make {
+    position: relative;
+}
+.image {
+    display: block;
+    width: 100%;
+}
+.overlay-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #61892f;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.overlay-right {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #61892f;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.overlay-bottom {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: #61892f;
+   overflow: hidden;
+   width: 100%;
+   height: 0;
+   transition: .5s ease;
+}
+.overlay-top {
+   position: absolute;
+   bottom: 100%;
+   left: 0;
+   right: 0;
+   background-color: #61892f;
+   overflow: hidden;
+   width: 100%;
+   height:0;
+   transition: .5s ease;
+}
+.pro-make:hover .overlay-left  {
+    width: 100%;
+}
+.pro-make:hover .overlay-right{
+    width: 100%;
+    left: 0;
+}
+.pro-make:hover .overlay-bottom {
+   height: 100%;
+}
+.pro-make:hover .overlay-top {
+   bottom: 0;
+   height: 100%;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

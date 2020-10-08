@@ -1,0 +1,30 @@
+/*code for scrollbar style*/
+::-webkit-scrollbar {
+  width: 18px;
+	background-color: #6b6570;
+  }
+  
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background-color: #6b6570;
+    border-radius: 10px;
+}
+   
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+	background-color: #6b6570;
+	background-image: -webkit-linear-gradient(top,
+											  #61892f 25%,
+                        #61892f 100%);
+  border: #6b6570 2px solid;
+  /* box-shadow: inset -8px 0 20px -6px #d40071;
+  box-shadow: inset 8px 0 20px -6px #d40071; */
+  }
+  
+  .github-corner{
+position: fixed;
+
+  }
+  .fa-angle-up{
+    color:white;
+  }
